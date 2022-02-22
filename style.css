@@ -1,0 +1,44 @@
+body
+{
+    background-color: aquamarine;
+}
+
+h1
+{
+  
+    
+    color:aqua ;
+    background-color: cornflowerblue;
+
+}
+
+#show_sketch
+{
+    float:right;
+}
+
+canvas
+{
+    border: 6px solid yellowgreen;
+    border-radius: 21px;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-top: 51px;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+    from{box-shadow: 2px 2px 39px turquoise ;}
+    to{box-shadow:2px 2px 39px tomato  ;}
+
+}
+
+
+
+
+p
+  {
+      padding-top:11px;
+      font-size:26px;
+  }
+
